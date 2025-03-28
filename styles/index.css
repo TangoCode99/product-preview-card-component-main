@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Fraunces:wght@700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color: hsl(30, 38%, 92%);
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+strong {
+    font-size: small;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 1rem;
+    width: 90vw;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-container {
+        flex-direction: row;
+        align-items: center;
+        width: 40%;
+        height: 30rem;
+    }
+
+    img {
+        height: fit-content;
+    }
+
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+        height: 100%;
+    }
+
+    .cart-btn:hover {
+        cursor: pointer;
+        background-color: hsl(158, 42%, 18%);
+    }
+}
+
+.card-content {
+    padding: 10px;
+    margin: 10px;
+}
+
+.product-desc {
+    line-height: 20px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.product-price {
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .discount-price {
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        font-size: xx-large;
+        color: hsl(158, 36%, 37%);
+        margin-right: 20px;
+    }
+
+    .original-price {
+        font-size: small;
+        color: hsl(228, 12%, 48%);
+        text-decoration: line-through;
+    }
+}
+
+.cart-btn {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    align-items: center;
+    font-weight: 700;
+
+    img {
+        width: 15px;
+        margin-right: 15px;
+    }
+}
