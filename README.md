@@ -24,7 +24,11 @@ Users should be able to:
 
 ### Screenshot
 
-Provide a screenshot of the mobile/desktop.
+- Desktop View
+<img width="1429" alt="image" src="https://github.com/user-attachments/assets/4f6c5f0c-d7b7-4c79-ba21-0ce565d8c80b" />
+
+- Mobile View
+<img width="359" alt="image" src="https://github.com/user-attachments/assets/aabd1c4d-7080-4df8-99ab-07b2e3951717" />
 
 ### Links
 
